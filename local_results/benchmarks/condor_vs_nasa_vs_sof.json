@@ -1,0 +1,39 @@
+{
+  "generated_at_utc": "2026-05-02T05:58:12.294481Z",
+  "target_lead_minutes": 15.0,
+  "nasa_firms": {
+    "lead_minutes": 0.0,
+    "role": "public_baseline"
+  },
+  "satellites_on_fire": {
+    "claimed_mean_lead_minutes": 35.0,
+    "evidence_type": "public_claim"
+  },
+  "condor_checkpoint": {
+    "path": "/workspace/condor/Sentinela-ModelS/runs/goes_multitask_balanced_all_gpu_maskfocus_e40/best_combined.pt",
+    "epoch": 34,
+    "metrics": {
+      "epoch": 34,
+      "train_loss": 0.04437423473570526,
+      "val_loss": 0.2772264985827549,
+      "val_scene_loss": 0.008050731225636654,
+      "val_mask_bce": 0.012862826211743535,
+      "val_mask_dice": 0.12815646958882704,
+      "val_accuracy": 0.9983484723369116,
+      "val_precision": 0.9966869133075649,
+      "val_recall": 1.0,
+      "val_mask_iou": 0.6764928511354079
+    },
+    "source_specs": [
+      {
+        "source_id": "goes_east_abi",
+        "in_channels": 6
+      },
+      {
+        "source_id": "goes_west_abi",
+        "in_channels": 6
+      }
+    ]
+  },
+  "condor_early_benchmark": null
+}

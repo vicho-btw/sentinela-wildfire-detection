@@ -1,0 +1,67 @@
+{
+  "region": "south_america",
+  "checkpoint": "/var/folders/gc/vck74bp546bb36__2mbdsjy00000gn/T/tmpkeolw8c8/model/best.pt",
+  "split": "test",
+  "threshold": 0.5,
+  "temporal_offsets_minutes": [
+    -30,
+    -20,
+    -10,
+    0
+  ],
+  "accuracy": 0.5,
+  "precision": 0.5,
+  "recall": 1.0,
+  "f1": 0.6666666666666666,
+  "confusion_matrix": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "labels": {
+    "0": "no_fire",
+    "1": "fire_signal"
+  },
+  "original_labels": {
+    "0": "negative",
+    "1": "active_fire",
+    "2": "early_fire_signal",
+    "3": "hard_negative",
+    "4": "uncertain"
+  },
+  "original_class_counts": {
+    "active_fire": 1,
+    "hard_negative": 1,
+    "uncertain": 1
+  },
+  "class_wise": {
+    "no_fire": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "support": 1
+    },
+    "fire_signal": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "support": 1
+    }
+  },
+  "false_positives_by_hard_negative_type": {
+    "cloud_edge": 1
+  },
+  "delta_t_minutes": {
+    "active_fire": {
+      "count": 1,
+      "mean": 0.0
+    },
+    "hard_negative": {
+      "count": 1,
+      "mean": 0.0
+    }
+  }
+}

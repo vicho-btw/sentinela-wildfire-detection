@@ -1,0 +1,55 @@
+# --- Secrets: never commit ---
+.env
+.env.*
+!.env.example
+*secret*
+*token*
+*credential*
+APIKEY
+*.pem
+*.key
+client_secret*.json
+gmail_token.json
+
+# --- Python ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- Large artifacts: datasets, weights, media ---
+*.keras
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.zip
+*.tar
+*.tar.gz
+*.mp4
+*.mov
+*.mp3
+*.wav
+*.pdf
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.Rhistory
+.RData
+.Rproj.user/
+
+# --- This project ---
+# Real Kaggle kernel id (keep the .template instead)
+kaggle/kernel-metadata.json
+# Pulled training artifacts from the GPU box
+local_results/vast_pull_*/
+# Training outputs
+runs/*
+!runs/.gitkeep
+!runs/benchmarks/
+tmp/

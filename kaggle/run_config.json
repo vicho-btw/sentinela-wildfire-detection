@@ -1,0 +1,22 @@
+{
+  "REGION": "south_america",
+  "START_DATE": "2024-01-01",
+  "END_DATE": "2026-05-11",
+  "MIN_CONFIDENCE": "nominal",
+  "MAX_FIRMS_ROWS": 2000,
+  "TEMPORAL_OFFSETS": "-30,-20,-10,0",
+  "SAMPLES_PER_CLASS": 1000,
+  "MAX_GOES_FILES": 8,
+  "MAX_TARGETS_PER_FILE": 0,
+  "HARD_NEGATIVE_RATIO": "0.5",
+  "VARIANT": "n",
+  "EPOCHS": 1,
+  "BATCH_SIZE": 16,
+  "NUM_WORKERS": 2,
+  "DROP_UNCERTAIN": false,
+  "RUN_LABEL_DOWNLOAD": true,
+  "RUN_SAMPLE_BUILD": true,
+  "RUN_TRAIN": true,
+  "RUN_EVALUATE": true,
+  "INSTALL_REQUIREMENTS": true
+}

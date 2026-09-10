@@ -1,0 +1,13 @@
+{
+  "id": "YOUR_KAGGLE_USERNAME/sentinela-binary-temporal-goes",
+  "title": "Sentinela Binary Temporal GOES",
+  "code_file": "sentinela_kaggle_runner.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "YOUR_KAGGLE_USERNAME/sentinela-models"
+  ]
+}
