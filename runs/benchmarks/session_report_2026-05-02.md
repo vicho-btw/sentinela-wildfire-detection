@@ -1,7 +1,7 @@
 # Sentinela / Condor Satellite Wildfire Model Session Report
 
 Date: 2026-05-02  
-Workspace: `/workspace/condor/Sentinela-ModelS` on Vast.ai and `/Volumes/PnotP/condor/Sentinela-ModelS` locally
+Workspace: `/workspace/Sentinela-ModelS` on a rented GPU box, and a local checkout
 
 ## Executive Summary
 

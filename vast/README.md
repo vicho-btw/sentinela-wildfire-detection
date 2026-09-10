@@ -16,7 +16,7 @@ Copy the printed host and port.
 ## 2. Locally: Create/Upload Key
 
 ```bash
-cd /Volumes/PnotP/condor/Sentinela-ModelS
+cd /path/to/Sentinela-ModelS
 bash vast/ensure_key.sh
 cat ~/.ssh/vast_ed25519.pub
 ```
